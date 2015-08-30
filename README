@@ -1,0 +1,45 @@
+FastCalc
+========
+
+Usage
+-----
+
+Use your mobile as a calculator!
+Instead of other calculators, or the calculators that are usually
+in the mobile phones, this calculator uses only the 12 keys on
+your mobile device (the 10 number keys plus asterisk and hash).
+
+This is supposed to make it slightly faster while typing, since
+the fingures do not have to travel a long distance and the hand
+does not need to move.
+
+Since the operations needed are more than 12, a "trick" similar
+to "sticky keys" is used. One key of the 12 (namely the hash) is
+used as a "shift" key. When pressed instead of having any direct
+result, the usage of the keyboard is changed. So now the usable
+operations are 11 + 11 (normal & shifted).
+
+In order for the user to be informed on the usage of each key, on
+the botom of the screen the map of the keys is displayed, presenting
+the usage of each key. If the status is "normal" then this map
+is drawn in white. If it is shifted then it's black.
+
+
+Compile
+-------
+
+The program is distributed already in binary (jar & jad) mode, ready
+to be installed in any mobile device with new java implementation.
+
+If you want to compile it, you will need at least WTK2.1. A preliminary
+makefile is provided, but I don't know if this will work for you
+(it works for me).
+
+
+Contact
+-------
+
+For any problems or suggestions, you are free to contact me at
+
+Panayotis Katsaloulis
+panayotis@panayotis.com
