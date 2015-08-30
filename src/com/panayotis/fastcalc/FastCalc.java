@@ -49,7 +49,7 @@ public final class FastCalc extends MIDlet implements CommandListener {
         }
 		
 		if ( c == aboutCmd ) {
-			String infotext = "FastCalc is a calculator aimed to be controlled only with the 12 main phone keys (the 10 numbers, the star and the pound). The pound key works as a SHIFT key, which transfers from the main usage (the 10 numbers and the star as a point) to the extended usage (all other commands). When the pound symbol is pressed, then the keys have their extended usage.\n\nThe meaning of the extended commands are as follows:\n\n1  Clear\n2 Clear all\n3 Memory set\n4 Reverse\n5 Change sign\n6 Memory get\n7 Divide\n8 Substract\n9 Result\n* Multiply\n0 Add\n\nWritten by Panayotis Katsaloulis (panayotis@panayotis.com). This program is under the GNU Licence.";
+			String infotext = "FastCalc is a calculator aimed to be controlled only with the 12 main phone keys (the 10 numbers, the star and the pound). The pound key works as a SHIFT key, which transfers from the main usage (the 10 numbers and the star as a point) to the extended usage (all other commands). When the pound symbol is pressed, then the keys have their extended usage.\n\nThe meaning of the extended commands are as follows:\n\n1  Clear\n2 Clear all\n3 Memory set\n4 Reverse\n5 Change sign\n6 Memory get\n7 Divide\n8 Substract\n9 Result\n* Multiply\n0 Add\n\nWritten by Panayotis Katsaloulis (http://www.panayotis.com). This program is under the GNU Licence.";
 			Alert alert = new Alert("About reTax 1.0", infotext, null, AlertType.INFO);
 			alert.setTimeout(Alert.FOREVER);
 			Display.getDisplay(this).setCurrent(alert);
